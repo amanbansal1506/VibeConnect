@@ -4,7 +4,7 @@ VibeConnect is a real-time web-based chat application where users can create or 
 
 ## 📸 Preview -- 
 
-![VibeConnect Preview](Screenshot.png)
+![VibeConnect Preview](public/Screenshot.png)
 
 ## 🚀 Features
 
