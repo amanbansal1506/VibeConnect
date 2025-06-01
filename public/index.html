@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VibeConnect • Chat Live</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="container">
+    <div id="login">
+      <h1 id="app-title">VibeConnect</h1>
+      <input id="username" placeholder="Enter your name" />
+      <h2>Create a Room</h2>
+      <input id="new-room-name" placeholder="Room name" />
+      <input id="new-room-key" placeholder="Room key" />
+      <br> </br>
+      <button onclick="createRoom()">Create Room</button>
+
+      <h2>Join a Room</h2>
+      <select id="room-list"></select>
+      <input id="room-key" placeholder="Enter room key" />
+      <br> </br>
+      <button onclick="joinRoom()">Join</button>
+    </div>
+
+    <div id="chat" style="display:none;">
+      <h2 id="room-title"></h2>
+      <div id="messages"></div>
+      <input id="message-input" placeholder="Message" />
+      <button onclick="sendMessage()">Send</button>
+      <button onclick="leaveRoom()" style="background-color:#f44336;">Leave Room</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
