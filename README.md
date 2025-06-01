@@ -2,7 +2,7 @@
 
 VibeConnect is a real-time web-based chat application where users can create or join chat rooms, send messages instantly, and experience a clean and modern interface.
 
-## 📸 Preview -- https://vibe-connect-alpha.vercel.app/
+## 📸 Preview -- https://vibe-connect-red.vercel.app/
 
 ![VibeConnect Preview](public/Screenshot.png)
 
