@@ -1,8 +1,8 @@
-# VibeConnect • Chat Live
+# VibeConnect – Real-Time Chat Application
 
 VibeConnect is a real-time web-based chat application where users can create or join chat rooms, send messages instantly, and experience a clean and modern interface.
 
-
+## 📸 Preview -- 
 
 ![VibeConnect Preview](Screenshot.png)
 
