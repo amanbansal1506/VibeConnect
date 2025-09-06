@@ -1,5 +1,5 @@
 // --- Socket setup ---
-const socket = io();
+const socket = io("https://vibeconnect-1-dood.onrender.com"); 
 let room = '';
 let username = ''; // declare once, use everywhere
 
